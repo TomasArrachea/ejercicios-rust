@@ -1,0 +1,4 @@
+fn main() {
+	println!("Hola mundo");
+	println!("Es un programa para encontrar diferencias");
+	println!("Funciona como el detector de cambios de git");

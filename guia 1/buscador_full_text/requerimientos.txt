@@ -1,0 +1,6 @@
+Requerimientos:
+- preparacion de datos: costruir el corpus de txts identificables con un id. Los txt pueden generarse a partir de articulos de internet.
+- idexacion: indice invertido (hashmap) que contiene como claves las palabras y como valor los id del doc donde aparece
+- tokenizacion: obtener los tokens (palabras) de cada doc ignorando articulos y signos de puntuacion (stop words). Se considera la frecuencia de cada token, almacenado para el ordenamiento de los resultados
+- busqueda: ingresar un string y aplicar la tokenizacion y eliminar las stop words. Se buscan los docs que tengan los terminos de busqueda.
+- puntaje de cada doc: se computa a partir de sumar las frecuencias de los terminos encontrados. Se usa para determinar la relevancia de cada doc en la busqueda. Para mejorar el calculo, se calcula la frecuencia inversa de docs para uun termino.
